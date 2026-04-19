@@ -1,11 +1,23 @@
 {
   "files": {
     "main.css": "./static/css/main.51483841.css",
-    "main.js": "./static/js/main.9650c7cb.js",
+    "main.js": "./static/js/main.4ed0c178.js",
+    "static/media/tovabbi_kep5.webp": "./static/media/tovabbi_kep5.564b9c4546498c440451.webp",
+    "static/media/kep5.webp": "./static/media/kep5.ec10e33e5f576b11c9b2.webp",
+    "static/media/toth_robi_portre.webp": "./static/media/toth_robi_portre.8df46bab0d1667807c3d.webp",
+    "static/media/tovabbi_kep3.webp": "./static/media/tovabbi_kep3.bfd1271cd898ae5d2ab8.webp",
+    "static/media/fo_kep.webp": "./static/media/fo_kep.90e75d0731a26cc187f2.webp",
+    "static/media/tovabbi_kep2.webp": "./static/media/tovabbi_kep2.ba509bf208bbf0167e51.webp",
+    "static/media/tovabbi_kep4.webp": "./static/media/tovabbi_kep4.243ad0633ccdebe80324.webp",
+    "static/media/tovabbi_kep1.webp": "./static/media/tovabbi_kep1.cc0c47c3d73169c8a581.webp",
+    "static/media/kep3.webp": "./static/media/kep3.5d45e1e1080b46920868.webp",
+    "static/media/kep1.webp": "./static/media/kep1.3cc56de88f9c599a16d5.webp",
+    "static/media/kep2.webp": "./static/media/kep2.408d3ed8ee7ce7cdcb1d.webp",
+    "static/media/kep4.webp": "./static/media/kep4.6db66161a6e9e8692ecb.webp",
     "index.html": "./index.html"
   },
   "entrypoints": [
     "static/css/main.51483841.css",
-    "static/js/main.9650c7cb.js"
+    "static/js/main.4ed0c178.js"
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fba843ef.css",
+    "main.js": "/static/js/main.1be90589.js",
+    "static/media/kep5.webp": "/static/media/kep5.3166bc94c6a740da45f3.webp",
+    "static/media/tovabbi_kep4.webp": "/static/media/tovabbi_kep4.7841941af338e13847c5.webp",
+    "static/media/kep1.webp": "/static/media/kep1.6b854364fbeb304799e2.webp",
+    "static/media/kep2.webp": "/static/media/kep2.14877215afc6f95338d4.webp",
+    "static/media/tovabbi_kep2.webp": "/static/media/tovabbi_kep2.132e94d4c08224d46b55.webp",
+    "static/media/tovabbi_kep1.webp": "/static/media/tovabbi_kep1.9da2af50ec937f8f2c9d.webp",
+    "static/media/kep3.webp": "/static/media/kep3.72bbb4f710f31e463749.webp",
+    "static/media/fo_kep.webp": "/static/media/fo_kep.a00730f3bf6b87e1bcb1.webp",
+    "static/media/tovabbi_kep3.webp": "/static/media/tovabbi_kep3.3aef36091345d7805643.webp",
+    "static/media/kep4.webp": "/static/media/kep4.a053eba3a558f37528a0.webp",
+    "static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-700.woff2": "/static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-700.894cec412545fee5a1b1.woff2",
+    "static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-600.woff2": "/static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-600.d039ba9ba838c57e62db.woff2",
+    "static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-500.woff2": "/static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-500.2e31c838459b2b815d58.woff2",
+    "static/media/tovabbi_kep5.webp": "/static/media/tovabbi_kep5.77ab5380c8e96813ee8b.webp",
+    "static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-700italic.woff2": "/static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-700italic.e59eaa6facf2145e6c79.woff2",
+    "static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-600italic.woff2": "/static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-600italic.4291435199f70732a752.woff2",
+    "static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-500italic.woff2": "/static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-500italic.d740ff2a81b775e98d28.woff2",
+    "static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-regular.woff2": "/static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-regular.d3d59dac0756c7bd9b67.woff2",
+    "static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-italic.woff2": "/static/media/playfair-display-v40-cyrillic_latin_latin-ext_vietnamese-italic.6c79548471ff4f6c9c85.woff2",
+    "static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-700.woff2": "/static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-700.2b5719af993947edaac4.woff2",
+    "static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-300.woff2": "/static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-300.8a8b49f603cc327b246b.woff2",
+    "static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-regular.woff2": "/static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-regular.2bedb141e8a94e02a7b1.woff2",
+    "static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-600.woff2": "/static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-600.4df04f2c89bad1ead7e4.woff2",
+    "static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-500.woff2": "/static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-500.d4f35acdc97d7c37de94.woff2",
+    "static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-800.woff2": "/static/media/manrope-v20-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-800.79fec0c4a6439de9afd4.woff2",
+    "static/media/toth_robi_portre.webp": "/static/media/toth_robi_portre.5465fdf13a04c8d43e2e.webp",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.fba843ef.css",
+    "static/js/main.1be90589.js"
+  ]
+}

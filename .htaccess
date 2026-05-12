@@ -1,0 +1,41 @@
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+# 1. GYORSÍTÓTÁRAZÁS (CACHE CONTROL)
+# Ez mondja meg a böngészőnek, hogy ne töltse le minden alkalommal a képeket és betűtípusokat
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+
+  # Képek és Favicon (1 évig tárolja a böngésző)
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+
+  # Betűtípusok (1 évig tárolja a böngésző)
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+
+  # CSS és JavaScript (1 évig tárolja, mivel a React egyedi nevet ad nekik minden buildnél)
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
+
+# Biztosítjuk, hogy a HTML fájlt viszont SOHA ne tárolja el hosszan, 
+# hogy a vendégek mindig a legfrissebb oldalt lássák
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# 2. REACT ÚTVONALVÁLASZTÓ (ROUTING)
+# Ez felel azért, hogy ne legyen 404-es hiba frissítéskor
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
